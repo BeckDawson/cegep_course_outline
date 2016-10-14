@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1476424267 "201-NYC-05_science.tex" "201-NYC-05_science.pdf" "201-NYC-05_science" 1476424291
+["pdflatex"] 1476426971 "201-NYC-05_science.tex" "201-NYC-05_science.pdf" "201-NYC-05_science" 1476426971
   "../DawsonCollegeLogo.pdf" 1476408225 80885 8149685e0591e0e54796e22e64de12a1 ""
-  "./201-NYC-05_science.out" 1476424267 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "./201-NYC-05_science.out" 1476426971 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2015/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
@@ -88,12 +88,16 @@
   "/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1432479641 1764542 91654ba72bdb667e84ea24f076ae16d8 ""
   "/usr/local/texlive/2015/texmf-var/web2c/pdftex/pdflatex.fmt" 1432479681 3849859 39a7d258195bde2394e244961601fbc5 ""
   "/usr/local/texlive/2015/texmf.cnf" 1432479636 577 0d611272082f3cdb8e80e09a3c69cf07 ""
-  "201-NYC-05_science.aux" 1476424267 767 ae8f55f7809e7d63062b0de4273e6557 ""
-  "201-NYC-05_science.out" 1476424267 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "201-NYC-05_science.tex" 1476424266 11730 42e27a71beacbb95f03a215f7470de83 ""
-  "coursecompetencies.tex" 1476423776 2716 d6c8632640725b19455d7c9ad53ade49 ""
-  "coursecontent.tex" 1476424261 3572 0146d64534905c7a77c42af4dd5b2913 ""
-  "coursedetails.tex" 1476423776 1265 1663ff9c9c68a172c1288374c4cdccf3 ""
+  "201-NYC-05_science.aux" 1476426971 767 ae8f55f7809e7d63062b0de4273e6557 ""
+  "201-NYC-05_science.out" 1476426971 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "201-NYC-05_science.tex" 1476426399 3498 0970e8ce6b43f60e8143d5bc325d7086 ""
+  "conflictform.tex" 1476426399 975 6c6f1808cf27ef8224989e2a011e0372 ""
+  "coursecompetencies.tex" 1476426750 3038 ea99b9d04bff9ec02be246498450ce7e ""
+  "coursecontent.tex" 1476426942 3546 afd20298cc5531d859347c028e18ba4a ""
+  "coursegeneralinfo.tex" 1476426835 1324 96019801b9caee43daf2ab6b18c71e0d ""
+  "evaluation.tex" 1476426399 1361 85d04c0afe811e53267aa7c079ffc3da ""
+  "policies.tex" 1476426399 4724 37dc1d77dff79bd74629b05330917ea7 ""
+  "studentobligations.tex" 1476426399 1502 4623a7967196c3b0ab008a8c127cfe84 ""
   (generated)
   "201-NYC-05_science.aux"
   "201-NYC-05_science.log"
