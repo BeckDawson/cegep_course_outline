@@ -35,9 +35,13 @@
 \usepackage{multicol}
 
 %=======================================================[[Template Declarations]]
-\input{coursedetails}
+\input{coursegeneralinfo}
 \input{coursecompetencies}
 \input{coursecontent}
+\input{evaluation}
+\input{studentobligations}
+\input{policies}
+\input{conflictform}
 
 %=======================================================[[Title page information]]
 %=======================================================[[Document begins here]]
@@ -63,31 +67,20 @@
 \textbf{Text:} & \textbook\\\\
 \textbf{References:} & \references\\\\
 \textbf{Methodology:} & \methodology\\\\
-\textbf{Department Website:} & For final examinations from previous years and other useful information consult the departmental website:\newline
-\begin{tabular}{r}
-\url{https://www.dawsoncollege.qc.ca/mathematics/}\\
-% $\to$ go to {\sc Programs}\\
-% $\to$ go to {\sc Disciplines}\\
-% $\to$ go to {\sc Mathematics}
-\end{tabular}\\\\
-\textbf{Math Tutorial Room:}	& Volunteer math teachers are available for help in room 7B.1.  The schedule of available teachers is available on the door of the tutorial room and the department website. \\ \\ \\
+\textbf{Department Website:} & \deptwebsite\\\\
+\textbf{Math Tutorial Room:}	& \tutorialroom \\ \\ \\
 \end{tabular}
 
 \large{\textbf{Evaluation}}\\
 \vspace{-0.15in}\hline \bigskip \normalsize
 \begin{tabular}{@{}p{1.5in}p{4.7in}}
-\textbf{Standard of\newline Performance:}& In order to pass this course the student must obtain a final grade of at least $60\%$.\\\\
-\textbf{Grading Policy:}  	&  \gradingpolicy\\ \\
-\textbf{Termwork:} &
-The term grade is based on a minimum of $3\frac12$ hours of tests/quizzes.\\\\
-\textbf{Final Examination:} & The Final Examination will be a supervised, comprehensive examination held during the formal examination period.\\\\
-\textbf{Calculators:}		& Students are only permitted to use the Sharp EL-531XG or EL-531X calculator during tests and examinations.\\\\
-\textbf{Formula Sheets:}	& No formula sheet will be permitted for quizzes, class tests and the Final Examination.\\\\
-\textbf{Further information:} & The \textit{Institutional Student Evaluation Policy (ISEP)} is designed to promote equitable and effective
-evaluation of student learning and is therefore a crucial policy to read and understand. The policy
-describes the rights and obligations of students, faculty, departments, programs, and the College
-administration with regard to evaluation in all your courses, including grade reviews and resolution of
-academic grievance. ISEP is available on the Dawson website.
+\textbf{Standard of\newline Performance:}& \performancestandard\\\\
+\textbf{Grading Policy:}  	&  \sciencegradingpolicy\\ \\
+\textbf{Termwork:} & \termwork\\\\
+\textbf{Final Examination:} & \finalexam\\\\
+\textbf{Calculators:}		& \calculators\\\\
+\textbf{Formula Sheets:}	& \formulasheets\\\\
+\textbf{Further information:} & \furtherinfo
 \end{tabular}
 
 \vspace*{\fill}
@@ -99,37 +92,13 @@ academic grievance. ISEP is available on the Dawson website.
 \vspace{-0.15in}\hline \bigskip \normalsize
 \begin{tabular}{@{}p{1.5in}p{4.7in}}
 \textbf{Objectives:} & \objectives \\ \\
-\textbf{Competencies:} & \competencies \\
+\textbf{Competencies:} & \competencydescriptions \\
 \end{tabular}
-
-\begin{multicols}{2}
-\firstcompetency
-\vfill
-\columnbreak
-\secondcompetency
-\end{multicols}\\ \bigskip
-
-
+\competencydetails\\ %\bigskip
 
 \large\textbf{Students' Obligations}}\\
 \vspace{-0.15in}\hline \bigskip \normalsize
-\begin{enumerate}\addtolength{\itemsep}{-0.5\baselineskip}
-\item[a.] Students have an obligation to arrive on time and remain in the classroom for the duration of
-scheduled classes and activities.  Attendance is recommended for the successful completion of the course.  \textit{Students should refer to ISEP (Section III-C) regarding attendance.}
-\item[b.] Students have an obligation to write tests and final examinations at the times scheduled by the teacher
-or the College. Students have an obligation to inform themselves of, and respect, College
-examination procedures.
-\item[c.] Students have an obligation to show respectful behavior and appropriate classroom deportment.
-Should a student be disruptive and/or disrespectful, the teacher has the right to exclude the disruptive
-student from learning activities (classes) and may refer the case to the Director of Student Services
-under the Student Code of Conduct.
-\item[d.] Electronic/communication devices (including cell phones, mp3 players, etc.) have the effect of
-disturbing the teacher and other students. All these devices must be turned off and put away.
-Students who do not observe these rules will be asked to leave the classroom.
-\end{enumerate}
-
-\noindent Everyone has the right to a safe and non-violent environment. \textit{Students are obliged to conduct themselves as stated in the Student Code of Conduct and in the ISEP section on the roles and responsibilities of
-students (Section II-D).}  \\
+\studentobligations \\
 
 \vspace*{\fill}
 
@@ -142,81 +111,14 @@ students (Section II-D).}  \\
 \setlength{\columnsep}{30pt}
 \begin{multicols}{2}
 
-\large{\textbf{Policy on Cheating and Plagiarism}}\\
-\vspace{-0.15in}\hline \bigskip \normalsize
-\textbf{Cheating in Examinations, Tests, and Quizzes:}\\
-Cheating includes any dishonest or deceptive practice relative to
-formal final examinations, in-class tests, or quizzes. Such cheating
-is discoverable during or after the exercise in the evaluation
-process by the instructor. Such cheating includes, but is not limited
-to\vspace{-0.1in}
-\begin{enumerate}\addtolength{\itemsep}{-0.5\baselineskip}
-\item[a.] copying or attempting to copy another's work.
-\item[b.] obtaining or attempting to obtain unauthorized assistance of any kind.
-\item[c.] providing or attempting to provide unauthorized assistance of any kind.
-\item[d.] using or possessing any unauthorized material or instruments which can be used as information storage and retrieval devices.
-\item[e.] taking an examination, test, or quiz for someone else.
-\item[f.] having someone take an examination, test, or quiz in one's place. \smallskip
-\end{enumerate}\vspace{-0.1in}
+\cheating
 
-\textbf{Unauthorized Communication:}\\
-Unauthorized communication of any kind during an examination,
-test, or quiz is forbidden and subject to the same penalties as
-cheating.\\\vspace{-0.1in}
-
-\textbf{Plagiarism on Assignments and the Comprehensive Assessment:}\\
-Plagiarism is the presentation or submission by a student of
-another person's assignments or Comprehensive Assessment as his or
-her own. Students who permit their work to be copied are considered
-to be as guilty as the plagiarizer.\\\vspace{-0.1in}
-
-\textbf{Obligation of the Teacher:}\\
-Every instance of cheating or plagiarism leading to a resolution
-that impacts on a student's grade must be reported by the teacher,
-with explanation, in writing to the Chair of Mathematics and to the
-Dean of Pre-University Studies. A copy of this report must also be
-given to the student.\\\vspace{-0.1in}
-
-\textbf{Penalties:}\\
-Cheating and plagiarism are considered extremely serious academic
-offences. Action in response to an incident of cheating and
-plagiarism is within the authority of the teacher.
-Penalties may range from zero on a test, to failure of the
-course, to suspension or expulsion from the college.\\ \\ \vspace{-0.1in}
-
-\textit{According to ISEP (Section IV-C), the teacher is required to report all cases of cheating and plagarism affecting a student's grade to the Sector Dean.}
 \vfill
 \columnbreak
 
-\large{\textbf{Literacy Policy}}\\
-\vspace{-0.15in}\hline \bigskip \normalsize
-Problem solving is an essential component of this course.  Students will be expected to analyze problems stated in words, to present their solutions logically and coherently, and to display their answers in a form corresponding to the statement of the problem, including appropriate units of measurement.  Marks will be deducted for work which is inadequate in their respects, even though the answers may be numerically correct. \\ \\
+\literacy \\ \\
 
-
-\large\textbf{Intensive Course Conflicts and Policy on Religious Observances}\\
-\vspace{-0.15in}\hline \bigskip \normalsize
-
-Students who intend to observe religious holidays or who take intensive courses \textit{\textbf{must inform their
-teachers in writing within the first two weeks of classes}}, as prescribed in ISEP.
-A form for this purpose is available at the end of this document. \\
-
-\textit{ISEP Statement on Intensive Courses (Appendix 1):}\\\vspace{-0.1in}
-
-Students have an obligation to make arrangements in advance to meet the requirements of any classes missed as a result of taking an intensive course which forces them to be absent from their regularly scheduled course offerings.  Students who take intensive courses may be subject to penalties for missing laboratories or tests prescribed in the course outline. \\
-
-\textit{ISEP Policy on Religious Observances (Section III-D):}
-} \\\vspace{-0.1in}
-
-Students who wish to observe religious holidays must also inform each of their teachers in writing within
-the first two weeks of each semester of their intent to observe the holiday so that alternative arrangements
-convenient to both the student and the teacher can be made at the earliest opportunity. The written notice
-must be given even when the exact date of the holiday is not known until later. Students who make such
-arrangements will not be required to attend classes or take examinations on the designated days, nor be
-penalized for their absence. \\\vspace{-0.1in}
-
-It must be emphasized, however, that this College policy should not	 be	 interpreted	 to	 mean	 that	 a
-student can receive credit for work not performed. It is the student's responsibility to fulfill the
-requirements of the alternative arrangement.\\
+\conflicts \\
 \end{multicols}
 
 \vspace*{\fill}
@@ -225,31 +127,9 @@ requirements of the alternative arrangement.\\
 
 \coursecontent
 
-\section*{RELIGIOUS OBSERVANCE \& INTENSIVE COURSES FORM}
-
-Students who intend to observe religious holidays or who take intensive courses must inform their teachers in writing as prescribed in the ISEP Policy on Religious Observance (ISEP Section III-D). \\
-
-The following form must be submitted within the first two weeks of classes. \\ \\ \\ \\
-
-\begin{tabular}{@{}p{1.5in}p{5in}}
-Name: & \underline{\hspace{5in}} \\ \\ \\
-Student Number: & \underline{\hspace{5in}} \\ \\ \\
-Course: & \underline{\hspace{5in}} \\ \\ \\
-Teacher: & \underline{\hspace{5in}} \\ \\ \\
-\end{tabular}
-
-\vspace{0.5in}
-
-\begin{tabular}{@{}p{1.5in}p{5in}}
-Date & Description \\ \\ \\
-\underline{\hspace{1.5in}}& \underline{\hspace{5in}} \\
-\\ \\
-\underline{\hspace{1.5in}}& \underline{\hspace{5in}} \\
-\\ \\
-\underline{\hspace{1.5in}}& \underline{\hspace{5in}} \\
-\\ \\
-\underline{\hspace{1.5in}}& \underline{\hspace{5in}} \\
-\end{tabular}
-\vspace{3in}
+\newpage
 \vspace*{\fill}
+
+\conflictform
+
 \end{document}
