@@ -1,0 +1,365 @@
+%=======================================================[[Define parameter of document]]
+\documentclass[10pt]{article}
+\pagestyle{empty}
+\setlength{\paperwidth}{8.5in}
+\setlength{\paperheight}{11in}
+\setlength{\topmargin}{-0.75in}
+\setlength{\headsep}{0.00in}
+\setlength{\headheight}{0.00in}
+\setlength{\evensidemargin}{0.00in}
+\setlength{\oddsidemargin}{0.00in}
+\setlength{\textwidth}{6.5in}
+\setlength{\textheight}{10.5in}
+\setlength{\voffset}{0.00in}
+\setlength{\hoffset}{0.00in}
+\setlength{\marginparwidth}{0.00in}
+\setlength{\marginparsep}{0.00in}
+\setlength{\parindent}{0.0in}
+\setlength{\parskip}{0.0in}
+
+%=======================================================[[Package]]
+\usepackage{graphicx}
+\usepackage{amsfonts}
+%\usepackage{mathptmx}
+\usepackage[scaled=.90]{helvet}
+\usepackage{courier}
+%\usepackage{amssymb}
+%\usepackage{amsmath}
+\usepackage[T1]{fontenc}
+\usepackage{longtable}
+\usepackage{pdflscape}
+\usepackage{chngpage}
+\usepackage{paralist}
+\usepackage{hyperref}
+\usepackage{csquotes}
+\usepackage{multicol}
+
+
+
+%=======================================================[[Title page information]]
+%=======================================================[[Document begins here]]
+\begin{document}
+\vspace*{\fill}
+
+\begin{tabular*}{6.5in}{@{}p{4in}r}
+\includegraphics[height=0.65in]{../DawsonCollegeLogo.pdf} &
+\raisebox{0.5cm}{
+\begin{tabular}{r}
+\large\textbf{Mathematics Department}\\
+\large\textbf{Calculus II} {\sc (Science)}\\
+\large 201-NYB-05
+\end{tabular}}
+\end{tabular*}
+\\[0.1in] \\
+
+\large{\textbf{General Course Information}}\\
+\vspace{-0.15in}\hline \bigskip \normalsize
+\begin{tabular}{@{}p{1.5in}p{4.7in}}
+\textbf{Ponderation:} & 3-2-3\\\\
+\textbf{Prerequisite:} & Calculus I \textit{(201-NYA/201-NYA-05)} preferably the Science version.\\\\
+\textbf{Text:} &
+\emph{Single Variable Calculus: Early Transcendentals (3rd edition)} by Jon Rogawski and Colin Adams.\\\\
+\textbf{References:} & \emph{Single Variable Calculus: Early Transcendentals (8th edition)} by James Stewart, or any standard text book on calculus of a single variable.\\\\
+\textbf{Methodology:} & Lectures and problem solving sessions.\\\\
+\textbf{Department Website:} & For final examinations from previous years and other useful information consult the departmental website:\newline
+\begin{tabular}{r}
+\url{https://www.dawsoncollege.qc.ca/mathematics/}\\
+% $\to$ go to {\sc Programs}\\
+% $\to$ go to {\sc Disciplines}\\
+% $\to$ go to {\sc Mathematics}
+\end{tabular}\\\\
+\textbf{Math Tutorial Room:}	& Volunteer math teachers are available for help in room 7B.1.  The schedule of available teachers is available on the door of the tutorial room and the department website. \\ \\ \\
+\end{tabular}
+
+\large{\textbf{Evaluation}}\\
+\vspace{-0.15in}\hline \bigskip \normalsize
+\begin{tabular}{@{}p{1.5in}p{4.7in}}
+\textbf{Standard of\newline Performance:}& In order to pass this course the student must obtain a final grade of at least $60\%$.\\\\
+\textbf{Grading Policy:}  	&  The final grade shall consist of the greater of:\\
+				& $(A)$ Termwork for $50\%$ and Final Examination for $50\%$ of final grade\\
+				& $(B)$ Termwork for $25\%$ and Final Examination for $75\%$ of final grade\\ \\
+\textbf{Termwork:} &
+The term grade is based on a minimum of $3\frac12$ hours of tests/quizzes.\\\\
+\textbf{Final Examination:} & The Final Examination will be a supervised, comprehensive examination held during the formal examination period.\\\\
+\textbf{Calculators:}		& Students are only permitted to use the Sharp EL-531XG or EL-531X calculator during tests and examinations.\\\\
+\textbf{Formula Sheets:}	& No formula sheet will be permitted for quizzes, class tests and the Final Examination.\\\\
+\textbf{Further information:} & The \textit{Institutional Student Evaluation Policy (ISEP)} is designed to promote equitable and effective
+evaluation of student learning and is therefore a crucial policy to read and understand. The policy
+describes the rights and obligations of students, faculty, departments, programs, and the College
+administration with regard to evaluation in all your courses, including grade reviews and resolution of
+academic grievance. ISEP is available on the Dawson website.
+\end{tabular}
+
+\vspace*{\fill}
+
+\newpage
+\vspace*{\fill}
+
+\large{\textbf{Course Objectives, Competencies, and Performance Criteria}}\\
+\vspace{-0.15in}\hline \bigskip \normalsize
+\begin{tabular}{@{}p{1.5in}p{4.7in}}
+\textbf{Objectives:} &
+This course introduces the student to Integral Calculus, to the techniques of integration and to some of the applications of integration to physical problems. Another look at limits and an introduction to the topic of infinite series are included.  For more details, see pages 44 to 49 of the Dawson Science Program. \\ \\
+\textbf{Competencies:}&
+This course will allow the student to fully achieve the competency
+\textit{``{\textbf{00UP:} To apply the methods of integral calculus to the study of functions and problem solving''}}
+and contributes to the partial achievement of the competency
+\textit{``\textbf{00UU:} To apply what they have learned to one or more subjects in the sciences''}. \\
+\end{tabular}
+
+\begin{multicols}{2}
+Elements of the competency \textbf{00UP}:
+\begin{compactenum}
+\item Determine the indefinite integral of a function.
+\item Calculate the limits of indeterminate forms.
+\item Calculate the definite integral and the improper integral of a function on an interval.
+\item Express concrete problems as differential equations and solve simple differential equations.
+\item Calculate volumes, areas and lengths and draw
+two- and three-dimensional representations.
+\item Analyze the convergence of infinite series. \\ \\ \\ \\ \\
+\end{compactenum}
+
+Performance criteria (\textbf{00UP}):
+\begin{compactitem}
+\item Adequate two- and three-dimensional representations of surfaces and solids of revolution
+\item Algebraic operations in conformity with rules
+\item Correct choice and application of rules and techniques of integration
+\item Accuracy of calculations
+\item Justification of steps in the solution
+\item Correct interpretation of results \item Use of appropriate terminology
+\end{compactitem}
+
+\vfill
+\columnbreak
+
+Elements of the competency \textbf{00UU}:
+\begin{compactenum}
+\item Recognize the contribution of more than one
+scientific discipline to certain situations.
+\item Apply the experimental method.
+\item Solve problems.
+\item Use data-processing technologies.
+\item Reason logically.
+\item Communicate effectively.
+\item Show evidence of independent learning in their choice of documentation or laboratory instruments.
+\item Work as members of a team.
+\item Make connections between science, technology and social progress. \\
+\end{compactenum}
+
+Performance criteria (\textbf{00UU}):
+\begin{compactitem}
+\item Use of an interdisciplinary approach
+\item Consistency and rigour in problem-solving, and justification of the approach used
+\item Observance of the experimental method and, where applicable, the experimental procedure
+\item Clarity and precision in oral and written communication
+\item Correct use of the appropriate data-processing technology
+\item Appropriate choice of documents or laboratory instruments
+\item Significant contribution to the team
+\item Appropriate connections between science, technology and social progress
+\end{compactitem}
+
+\end{multicols}\\ \bigskip
+
+
+
+\large\textbf{Students' Obligations}}\\
+\vspace{-0.15in}\hline \bigskip \normalsize
+\begin{enumerate}\addtolength{\itemsep}{-0.5\baselineskip}
+\item[a.] Students have an obligation to arrive on time and remain in the classroom for the duration of
+scheduled classes and activities.  Attendance is recommended for the successful completion of the course.  \textit{Students should refer to ISEP (Section III-C) regarding attendance.}
+\item[b.] Students have an obligation to write tests and final examinations at the times scheduled by the teacher
+or the College. Students have an obligation to inform themselves of, and respect, College
+examination procedures.
+\item[c.] Students have an obligation to show respectful behavior and appropriate classroom deportment.
+Should a student be disruptive and/or disrespectful, the teacher has the right to exclude the disruptive
+student from learning activities (classes) and may refer the case to the Director of Student Services
+under the Student Code of Conduct.
+\item[d.] Electronic/communication devices (including cell phones, mp3 players, etc.) have the effect of
+disturbing the teacher and other students. All these devices must be turned off and put away.
+Students who do not observe these rules will be asked to leave the classroom.
+\end{enumerate}
+
+\noindent Everyone has the right to a safe and non-violent environment. \textit{Students are obliged to conduct themselves as stated in the Student Code of Conduct and in the ISEP section on the roles and responsibilities of
+students (Section II-D).}  \\
+
+\vspace*{\fill}
+
+\newpage
+\vspace*{\fill}
+
+\large{\textbf{College and Department Policies}}\\
+\vspace{-0.15in}\hline \bigskip \normalsize
+
+\setlength{\columnsep}{30pt}
+\begin{multicols}{2}
+
+\large{\textbf{Policy on Cheating and Plagiarism}}\\
+\vspace{-0.15in}\hline \bigskip \normalsize
+\textbf{Cheating in Examinations, Tests, and Quizzes:}\\
+Cheating includes any dishonest or deceptive practice relative to
+formal final examinations, in-class tests, or quizzes. Such cheating
+is discoverable during or after the exercise in the evaluation
+process by the instructor. Such cheating includes, but is not limited
+to\vspace{-0.1in}
+\begin{enumerate}\addtolength{\itemsep}{-0.5\baselineskip}
+\item[a.] copying or attempting to copy another's work.
+\item[b.] obtaining or attempting to obtain unauthorized assistance of any kind.
+\item[c.] providing or attempting to provide unauthorized assistance of any kind.
+\item[d.] using or possessing any unauthorized material or instruments which can be used as information storage and retrieval devices.
+\item[e.] taking an examination, test, or quiz for someone else.
+\item[f.] having someone take an examination, test, or quiz in one's place. \smallskip
+\end{enumerate}\vspace{-0.1in}
+
+\textbf{Unauthorized Communication:}\\
+Unauthorized communication of any kind during an examination,
+test, or quiz is forbidden and subject to the same penalties as
+cheating.\\\vspace{-0.1in}
+
+\textbf{Plagiarism on Assignments and the Comprehensive Assessment:}\\
+Plagiarism is the presentation or submission by a student of
+another person's assignments or Comprehensive Assessment as his or
+her own. Students who permit their work to be copied are considered
+to be as guilty as the plagiarizer.\\\vspace{-0.1in}
+
+\textbf{Obligation of the Teacher:}\\
+Every instance of cheating or plagiarism leading to a resolution
+that impacts on a student's grade must be reported by the teacher,
+with explanation, in writing to the Chair of Mathematics and to the
+Dean of Pre-University Studies. A copy of this report must also be
+given to the student.\\\vspace{-0.1in}
+
+\textbf{Penalties:}\\
+Cheating and plagiarism are considered extremely serious academic
+offences. Action in response to an incident of cheating and
+plagiarism is within the authority of the teacher.
+Penalties may range from zero on a test, to failure of the
+course, to suspension or expulsion from the college.\\ \\ \vspace{-0.1in}
+
+\textit{According to ISEP (Section IV-C), the teacher is required to report all cases of cheating and plagarism affecting a student's grade to the Sector Dean.}
+\vfill
+\columnbreak
+
+\large{\textbf{Literacy Policy}}\\
+\vspace{-0.15in}\hline \bigskip \normalsize
+Problem solving is an essential component of this course.  Students will be expected to analyze problems stated in words, to present their solutions logically and coherently, and to display their answers in a form corresponding to the statement of the problem, including appropriate units of measurement.  Marks will be deducted for work which is inadequate in their respects, even though the answers may be numerically correct. \\ \\
+
+
+\large\textbf{Intensive Course Conflicts and Policy on Religious Observances}\\
+\vspace{-0.15in}\hline \bigskip \normalsize
+
+Students who intend to observe religious holidays or who take intensive courses \textit{\textbf{must inform their
+teachers in writing within the first two weeks of classes}}, as prescribed in ISEP.
+A form for this purpose is available at the end of this document. \\
+
+\textit{ISEP Statement on Intensive Courses (Appendix 1):}\\\vspace{-0.1in}
+
+Students have an obligation to make arrangements in advance to meet the requirements of any classes missed as a result of taking an intensive course which forces them to be absent from their regularly scheduled course offerings.  Students who take intensive courses may be subject to penalties for missing laboratories or tests prescribed in the course outline. \\
+
+\textit{ISEP Policy on Religious Observances (Section III-D):}
+} \\\vspace{-0.1in}
+
+Students who wish to observe religious holidays must also inform each of their teachers in writing within
+the first two weeks of each semester of their intent to observe the holiday so that alternative arrangements
+convenient to both the student and the teacher can be made at the earliest opportunity. The written notice
+must be given even when the exact date of the holiday is not known until later. Students who make such
+arrangements will not be required to attend classes or take examinations on the designated days, nor be
+penalized for their absence. \\\vspace{-0.1in}
+
+It must be emphasized, however, that this College policy should not	 be	 interpreted	 to	 mean	 that	 a
+student can receive credit for work not performed. It is the student's responsibility to fulfill the
+requirements of the alternative arrangement.\\
+\end{multicols}
+
+\vspace*{\fill}
+\newpage
+%\changetext{}{7.5in}{0in}{-0.5in}{}
+\begin{landscape}
+$\,$\vspace{-0.75in}\\
+\large{\textbf{Course Content}}\normalsize \\
+
+\begin{longtable}[t]{||p{1.75in}|p{4.5in}|p{3.75in}||}
+\hline
+\textbf{Specific Competencies} & \textbf{Learning Activities \& Topics} & \textbf{Sections and Problems}\\
+\hline
+
+Antiderivatives			& $\bullet$ Evaluate and interpret Riemann sums and their limits in terms of areas	& \S 5.1 (pp.~268-271) -- 1-9, 11-73, 77-80, 83, 84\\
+Reimann Sums				& $\bullet$ Interpret a definite integral as the limit of a Riemann Sum.		& \S 5.2 (pp.~278-281) -- 1-30, 33-68, 71-84 \\
+The Fundamental Theorem & $\bullet$ Apply properties of definite integrals				& \S 5.3 (pp.~286-288) -- 1-80, 82-85 \textit{(review)}\\
+\hspace{0.1in} of Calculus				& $\bullet$ Evaluate indefinite integrals \textit{(review)}						& \S 5.4 (pp.~293-294) -- 1-57, 59-65 \\
+					& $\bullet$ Find net change of a function in terms of definite integrals	& \S 5.5 (pp.~298-300) -- 1-45, 46a,b , 47-48\\
+\textbf{(9 classes)}					& $\bullet$ Substitution Rule \textit{(review)}				& \S 5.6 (pp.~304-305) -- 1-15, 18-27\\
+					&									& \S 5.7 (pp.~311-313) -- 1-75 \textit{(review)}, 76-111 \\
+					& 									& \S 5.8 (pp.~316-317) -- 1-72\\
+					&									& Ch 5 Review (pp.~328-331) -- 1-102, 104-105, 107-116\\
+\hline
+
+Applications of Integration		& $\bullet$ Set up and evaluate integrals to find:	& \S 6.1 (pp.~338-341) -- 1-35, 37-39, 41, 43, 46-48, 50-54, 59, 63\\
+					& \hspace{0.1in} -- The area bounded between two curves 		& \S 6.2 (pp.~348-351) -- 1-20, 24, 39-61, 63-67\\
+\textbf{(6 classes)}					& \hspace{0.1in} -- The average value of a function	& \S 6.3 (pp.~356-358) -- 1-51, 53-56, 58-62\\
+					& \hspace{0.1in} -- The volume of a solid								& \S 6.4 (pp.~363-365) -- 1-12, 15-58, 61-62\\
+					& $\bullet$ Mean Value Theorem for integrals & Ch 6 Review (pp.~371-372) -- 1-7, 9-11, 14-16, 19-20, 22-23, \\
+					&  & \phantom{Ch 6 Review (pp.~371-372) -- }25-47 \\
+\hline
+
+Techniques of Integration		& $\bullet$ Integration by parts			& \S 7.1 (pp.~377-379) -- 1-29, 35-80, 82-85, 89\\
+Improper Integrals					& $\bullet$ Integrals requiring trigonometric identities	& \S 7.2 (pp.~384-386) -- 1-7, 15-43, 45-58, 65-72\\
+					& $\bullet$ Trigonometric substitutions			& \S 7.3 (pp.~391-392) -- 1-51\\
+\textbf{(12 classes)}					& $\bullet$ Partial Fractions				& \S 7.5 (pp.~405-406) -- 1-55, 57-58 \\
+					& $\bullet$ Improper integrals  & \S 7.6 (pp.~413) -- 1-57 \\
+					& \hspace{0.1in}-- \textit{(review of l'Hopital's Rule and indeterminate forms, if necc.)} &  \S 4.5 (pp.~229-231) -- 1-57a, 58, 61a, 63-70, 76, 78 \textit{(review)} \\
+					& & \S 7.7 (pp.~422-425) -- 1-53, 82-87, 92, 96-97 \\
+					& & Ch 7 Review (pp.~440-442) -- 1-24, 26-54, 56-57, 62-64, 66, 68,\\
+					& & \phantom{Ch 7 Review (pp.~440-442) -- }75-84, 91-92 \\
+\hline
+
+Further Applications of & $\bullet$ Arc Length	& \S 8.1 (pp.~448-450) -- 1-10, 17-20, 22-25, 27-31, 52\\
+Integration \textbf{(1 class)}					& $\bullet$ Applications to Physics (optional)	& \S 8.2-8.3 [optional problems may be assigned]\\
+\hline
+
+Infinite Sequences			& $\bullet$ Convergence or divergence of infinite sequences	& \S 10.1 (pp.~521-523) -- 1-30, 35-70, 72-76, 79 \\
+Infinite Series				& $\bullet$ Sum of an infinite series from the definition	& \S 10.2 (pp.~531-534) -- 1-6, 11-49, 51, 53, 56-57 \\
+Taylor and Maclaurin Series					& \hspace{0.1in} -- incl.~geometric series, telescoping series, $n^{\rm th}$ term divergence test	& \S 10.3 (pp.~540-542) -- 1-37, 39-82, 92 \\
+					& $\bullet$ Tests for convergence of series:			& \S 10.4 (pp.~546-548) -- 1-10, 17-34, 37 \\
+\textbf{(12 classes)}					&  \hspace{0.1in} -- integral, comparison, limit comparison, alternating series, ratio, root					& \S 10.5 (pp.~552-553) -- 1-63 \\
+					& $\bullet$ Absolute and conditional convergence of a series		& \S 10.6 (pp.~561-563) -- 1-34, 55 \\
+					& $\bullet$ Interval and radius of convergence of a power series		& \S 10.7 (pp.~572-574) -- 1-10, 29-36, 38-39, 59-60 \\
+					& $\bullet$ Find Maclaurin and Taylor series of a function	& Ch 10 Review (pp.~575-577) -- 1, 3-25, 27-54, 55a, 56-59, 62-106,  \\
+					& 	& \phantom{Ch 0 Review (pp.~575-577) - }113-121 \\
+\hline
+
+\end{longtable}
+\noindent \textbf{Disclaimer:}  These problems are intended for students to assess whether or not they have mastered the competencies of the course.  Questions on tests and examinations should cover similar material but need not be in direct correspondence with the suggested homework.
+%$^*$ Indicates enriched or theoretical questions
+\end{landscape}
+
+\newpage
+\vspace*{\fill}
+
+\section*{RELIGIOUS OBSERVANCE \& INTENSIVE COURSES FORM}
+
+Students who intend to observe religious holidays or who take intensive courses must inform their teachers in writing as prescribed in the ISEP Policy on Religious Observance (ISEP Section III-D). \\
+
+The following form must be submitted within the first two weeks of classes. \\ \\ \\ \\
+
+\begin{tabular}{@{}p{1.5in}p{5in}}
+Name: & \underline{\hspace{5in}} \\ \\ \\
+Student Number: & \underline{\hspace{5in}} \\ \\ \\
+Course: & \underline{\hspace{5in}} \\ \\ \\
+Teacher: & \underline{\hspace{5in}} \\ \\ \\
+\end{tabular}
+
+\vspace{0.5in}
+
+\begin{tabular}{@{}p{1.5in}p{5in}}
+Date & Description \\ \\ \\
+\underline{\hspace{1.5in}}& \underline{\hspace{5in}} \\
+\\ \\
+\underline{\hspace{1.5in}}& \underline{\hspace{5in}} \\
+\\ \\
+\underline{\hspace{1.5in}}& \underline{\hspace{5in}} \\
+\\ \\
+\underline{\hspace{1.5in}}& \underline{\hspace{5in}} \\
+\end{tabular}
+\vspace{3in}
+\vspace*{\fill}
+\end{document}
